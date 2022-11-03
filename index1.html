@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index1.css" />
+    <!--/links-->
+    <title>Document</title>
+  </head>
+  <body class="bg-warning">
+    <!--navbar menu-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <h3 style="color: white">
+          Abdul Azeez Kemp<ion-icon name="diamond-outline"></ion-icon>
+        </h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title"
+              id="offcanvasNavbarLabel"
+              style="color: white"
+            >
+              Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <!--Main-->
+      <div class="landpage">
+        <div>
+          <img
+            src="./images/wp5125439.webp"
+            class="img-fluid"
+            alt="..."
+            style="background-size: cover; padding: 0"
+          />
+          <div
+            class="centered"
+            style="
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            "
+          >
+            <h4
+              style="
+                color: rgb(40, 36, 36);
+                letter-spacing: 2px;
+                font-size: 40px;
+                justify-content: left;
+              "
+            >
+              Hello My Name Is
+            </h4>
+            <h4
+              style="
+                font-size: 75px;
+                justify-content: left;
+                color: rgb(40, 36, 36);
+              "
+            >
+              Abdul-Azeez <span style="color: red"> Kemp</span>
+            </h4>
+            <h3 style="font-size: 40px; color: rgb(40, 36, 36)">
+              I'm a Web-Developer
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!--/Main-->
+    </section>
+
+    <section id="Projects">
+      <!--carousel-->
+      <div class="container-lg my-5">
+        <h1
+          class="name"
+          style="
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+          "
+        >
+          My Projects
+        </h1>
+        <div class="container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img
+                  src="./images/Screenshot 2022-11-03 131806.png"
+                  class="d-block w-100"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="./images/Screenshot 2022-11-03 132029.png"
+                  class="d-block w-100"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img
+                  src="./images/Screenshot 2022-11-03 132109.png"
+                  class="d-block w-100"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container-4">
+        <div class="grid text-center">
+          <div class="g-col-4">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop"
+              style="width: 300px"
+            >
+              First Website
+            </button>
+
+            <div
+              class="offcanvas offcanvas-top"
+              tabindex="-1"
+              id="offcanvasTop"
+              aria-labelledby="offcanvasTopLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel" style="font-size: 30px">
+                  Which link would you like to proceed with?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <a
+                  class="First"
+                  href="https://github.com/abdulkemp/new-landpage.git"
+                  target="first"
+                  >Github Link</a
+                >
+                <a
+                  class="first"
+                  href="https://newlandpage.netlify.app/"
+                  target="first"
+                >
+                  Website Link
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="g-col-4">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop"
+              style="width: 300px"
+            >
+              Sneaker Cartel
+            </button>
+
+            <div
+              class="offcanvas offcanvas-top"
+              tabindex="-1"
+              id="offcanvasTop"
+              aria-labelledby="offcanvasTopLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel" style="font-size: 30px">
+                  Which link would you like to proceed with?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <a
+                  class="second"
+                  href="https://github.com/abdulkemp/Sneaker_Cartel.git"
+                  target="second"
+                  >Github Link</a
+                >
+                <a
+                  class="second"
+                  href="https://sneaker-cartel.netlify.app/"
+                  target="second"
+                >
+                  Website Link
+                </a>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="g-col-4">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop"
+              style="width: 300px"
+            >
+              Jujutsu Kaisen Website
+            </button>
+
+            <div
+              class="offcanvas offcanvas-top"
+              tabindex="-1"
+              id="offcanvasTop"
+              aria-labelledby="offcanvasTopLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel" style="font-size: 30px">
+                  Which link would you like to proceed with?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <a
+                  class="third"
+                  href="https://github.com/abdulkemp/testimonial.git"
+                  target="third"
+                  >Github Link</a
+                >
+                <a
+                  class="third"
+                  href="https://jujutsu.netlify.app/"
+                  target="third"
+                >
+                  Website Link
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/Carousel-->
+    </section>
+    <!--list-->
+    <br />
+    <br />
+    <br />
+    <section id="testimonial">
+      <ul class="list-group w-75 mx-auto">
+        <li class="list-group-item">
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            Yuji Itadori
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            Yuji Itadori (Japanese: 虎杖悠仁, Hepburn: Itadori Yūji) is a
+            fictional character and the main protagonist of the manga series
+            Jujutsu Kaisen created by Gege Akutami.
+          </ul>
+        </li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item">
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            Satoru Gojo
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            Satoru Gojo (Japanese: 五条 悟, Hepburn: Gojō Satoru) He is the
+            strongest Jujutsu Sorcerer in the world, even rivalling and
+            surpassing the King of Curses Sukuna himself.
+          </ul>
+        </li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item">
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            Ryomen Sukuna
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            Ryomen Sukuna (Japanese: 呂蒙スクナ, Hepburn: Ryomen Sukuna) Sukuna
+            was the most powerful cursed spirit to have ever lived, and as such
+            was considered the undisputed "King of Curses."
+          </ul>
+        </li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item">
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
+            First year Class
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            Yuji Itadori, Megumi Fushiguro, Nobara Kugisaki and teacher Saturo
+            Gojo, with the King of all curses Ryomen Sukuna
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <!--/list-->
+    <br />
+    <br />
+    <br />
+    <!--form-->
+    <!--Skills-->
+    <section>
+      <div class="all">
+        <!--1st progress-->
+        <div class="circle-wrap">
+          <div class="circle">
+            <!--1st part-->
+            <div class="mask full-1">
+              <div class="fill-1"></div>
+            </div>
+            <!--2nd part-->
+            <div class="mask half">
+              <div class="fill-1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--2nd progress-->
+        <div class="circle-wrap">
+          <div class="circle">
+            <!--1st part-->
+            <div class="mask full-2">
+              <div class="fill-2"></div>
+            </div>
+            <!--2nd part-->
+            <div class="mask half">
+              <div class="fill-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--3rd progress-->
+        <div class="circle-wrap">
+          <div class="circle">
+            <!--1st part-->
+            <div class="mask full-3">
+              <div class="fill-3"></div>
+            </div>
+            <!--2nd part-->
+            <div class="mask half">
+              <div class="fill-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Skills-->
+    <section id="About">
+      <form
+        class="row g-3 w-75 mx-auto"
+        novalidate
+        action="https://formspree.io/f/mrgdyenn"
+        method="POST"
+      >
+        <div class="col-md-4 position-relative">
+          <label for="inputName" class="form-label">First Name</label>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="inputName"
+            value=""
+            required
+          />
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="inputName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="inputName"
+            value=""
+            required
+          />
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputEmail4">@</span>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              aria-describedby="inputEmail4Prepend"
+              required
+            />
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="inputCity" class="form-label">City</label>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="inputCity"
+            required
+          />
+          <div class="invalid-tooltip">Please provide a valid city.</div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="inputState" class="form-label">Province</label>
+          <select class="form-select" name="name" id="inputState" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Western Cape</option>
+          </select>
+          <div class="invalid-tooltip">Please select a valid province.</div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="inputZip" class="form-label">Postal Code</label>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="inputZip"
+            required
+          />
+          <div class="invalid-tooltip">Please provide a valid postal code.</div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit Form</button>
+        </div>
+      </form>
+    </section>
+    <!--/form-->
+    <!--styling css-->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        padding-left: 38%;
+      }
+      .carousel-inner {
+        border-radius: 25px;
+      }
+      .navbar-toggler {
+        padding-right: 10%;
+      }
+      .logo {
+        mix-blend-mode: color;
+      }
+      h4 {
+        color: rgb(11, 220, 227);
+        font-size: 30px;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        height: 50px;
+      }
+      .navbar-nav {
+        text-align: left;
+        background-color: black;
+        padding-left: 5%;
+        padding-top: 10px;
+      }
+      .offcanvas-body {
+        display: grid;
+      }
+      .offcanvas-end {
+        background-color: black;
+      }
+      .container-1 {
+        position: relative;
+        text-align: center;
+      }
+      a:link,
+      a:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px;
+      }
+
+      a:hover,
+      a:active {
+        background-color: transparent;
+        color: black;
+        border-radius: 20px;
+      }
+      a:link,
+      a:visited,
+      .second {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px;
+      }
+      a:link,
+      a:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px;
+      }
+      .all {
+        display: flex;
+      }
+      .circle-wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 160px);
+        grid-gap: 80px;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: #d9d7da;
+        border-radius: 50%;
+      }
+      .circle-wrap .circle .mask {
+      }
+      @media only screen and(max-width:580px) {
+        .all {
+          display: inline;
+        }
+      }
+    </style>
+    <!--/styling css-->
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <h1>This A Footer</h1>
+      </div>
+    </footer>
+    <!--/footer-->
+    <!--scripts-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--/scripts-->
+  </body>
+</html>
